@@ -17,6 +17,10 @@ body {
 	gap: 20px;
 }
 
+.box {
+	text-align: center;
+}
+
 .mainbox {
 	background-color: var(--bg);
 	border-radius: 15px;
@@ -53,7 +57,7 @@ body {
 
 #clock, #cal {
 	color: var(--title);
-	margin-left: 1rem;
+	text-align: center;
 }
 
 
@@ -85,16 +89,16 @@ a:hover {
 /*   Searchbar   */
 
 .search {
-	margin-top: 12px;
+	margin-top: 50px;
 }
 
 .search input {
 	background-color: var(--fg);
 	padding: 4px 0.5rem 4px 0.75rem;
 	height: 1.5rem;
-	width: 80%;
+	width: 50%;
 	border-radius: 2rem;
-	margin-bottom: 16px;
+	margin-bottom: 40px;
 	margin-left: 26px;
 	border: 0px;
 }
@@ -113,6 +117,7 @@ a:hover {
 
 .cat {
 	margin-left: 5rem;
+	margin-right: 5rem;
 	font-size: 24px;
 	text-align: center;
 }
